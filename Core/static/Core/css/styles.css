@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+.dancing {
+  font-family: "Dancing Script", cursive;
+}
+
+.raleway {
+  font-family: "Raleway", sans-serif;
+}
+
+.ptsans {
+  font-family: "PT Sans", sans-serif;
+}
+.opensans {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.zoom {
+  transition: transform 0.2s;
+}
+
+.zoom:hover {
+  transform: scale(1.1);
+}
+
+hr {
+  margin: 1rem 0;
+  color: inherit;
+  background-color: currentColor;
+  border: 0;
+  opacity: 0.25;
+}
